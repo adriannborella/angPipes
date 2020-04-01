@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombre = 'Adrián Borella';
+  nombre2 = 'AdRIán BOReLLa';
 
   arreglo = [1, 2, 3, 4, 5, 6];
 
@@ -38,4 +39,8 @@ export class AppComponent {
   changeLanguague(lan) {
     this.idioma = lan;
   }
+
+
+  videoUrl: string = 'https://www.youtube.com/embed/XivWouSymCk';
+  activar: boolean = true;
 }
